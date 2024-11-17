@@ -1,0 +1,11 @@
+{
+    "HarmonyId": "enderspearl184.defaultnames",
+    "DisplayName": "Custom Player Names",
+    "Authors": [
+      "Enderspearl184"
+    ],
+    "Description": "Makes each player use a unique, custom name!",
+    "Version": "1.0.0",
+    "RequiredMods": [],
+    "Settings": {}
+}
