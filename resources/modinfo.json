@@ -4,7 +4,7 @@
     "Authors": [
       "Enderspearl184"
     ],
-    "Description": "Makes each player use a unique, custom name!",
+    "Description": "Makes each player use a unique, custom name! Name lists can be customized in ModFolders\\DefaultNames",
     "Version": "1.0.0",
     "RequiredMods": [],
     "Settings": {}
