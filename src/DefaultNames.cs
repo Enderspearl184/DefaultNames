@@ -163,6 +163,7 @@ class PickNamesPatch
 }
 
 [HarmonyPatch(typeof(GameSceneController), nameof(GameSceneController.HandleOnEnterActiveGame))]
+[HarmonyPatch(typeof(GameSceneController), nameof(GameSceneController.HandleOnJoinLobby))]
 class GameStartPatch
 {
     public static void Prefix()
