@@ -1,10 +1,10 @@
 {
     "HarmonyId": "enderspearl184.defaultnames",
-    "DisplayName": "Custom Player Names",
+    "DisplayName": "Randomized Player Names",
     "Authors": [
       "Enderspearl184"
     ],
-    "Description": "Makes each player use a unique, custom name! Name lists can be customized in ModFolders\\DefaultNames",
+    "Description": "Makes all other players use a unique name! The name lists can be customized in ModFolders\\DefaultNames",
     "Version": "1.0.0",
     "RequiredMods": [],
     "Settings": {}

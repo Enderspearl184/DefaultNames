@@ -23,7 +23,7 @@ public class Settings
             ModSettings.CheckboxSetting UseFullNames = new()
             {
                 Name = "Use Full Names",
-                Description = "Use the list of complete default names, instead of the lists of first and last names",
+                Description = "Use the FullNames list, instead of the lists of first and last names",
                 DefaultValue = true,
                 AvailableInGame = false,
                 Available = true
