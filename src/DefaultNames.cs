@@ -123,8 +123,6 @@ public class GameObservationsPatch
         {
             try
             {
-                //replace the game name here
-                SML.ModSettings.GetBool("Use Full Names");
                 try
                 {
                     DiscussionPlayerObservation existingObservation = observations.discussionPlayers.Find((DiscussionPlayerObservation player) => player.Data.accountName == data.accountName);
