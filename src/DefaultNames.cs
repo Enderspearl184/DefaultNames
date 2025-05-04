@@ -11,6 +11,7 @@ using System.IO;
 using Newtonsoft.Json;
 using Game.Interface;
 using Game;
+
 namespace DefaultNames;
 
 [SML.DynamicSettings]
@@ -107,8 +108,7 @@ public class DefaultNames
             Names.LastNames = temp.LastNames;
             Names.FullNames = temp.FullNames;
         }
-        
-        Debug.Log(JsonConvert.SerializeObject(Names, Formatting.None));
+        Debug.Log("DefaultNames Lists: "  + JsonConvert.SerializeObject(Names, Formatting.None));
     }
 }
 
@@ -152,7 +152,8 @@ public class GameObservationsPatch
             GameObservations observations = Service.Game.Sim.simulation.observations;
             DiscussionPlayerState data = discussionPlayerObservation.Data;
             //make sure we aren't modifying ourselves, and that the packet actually includes an ingame name
-            if (Service.Home.UserService.UserInfo.AccountName != data.accountName && data.gameName != "")
+            // i hope the OwnInfoObservation is sent BEFORE this ngl
+            if (Service.Game.Sim.simulation.myPosition != data.position && data.gameName != "")
             {
                 try
                 {

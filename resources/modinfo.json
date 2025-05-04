@@ -5,7 +5,7 @@
       "Enderspearl184"
     ],
     "Description": "Makes all other players use a unique name! The name lists can be customized, they are located in ModFolders\\DefaultNames\\Names.json",
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "RequiredMods": [],
     "Settings": {}
 }
